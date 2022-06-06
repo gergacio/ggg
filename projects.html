@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/style.css">
+    <title>javascript big three</title>
+</head>
+<body>
+    
+      <nav>
+        <ul>      
+          <li>
+            <h1>JavaScript House</h1>         
+          </li>
+          <li> <a href="./"> Home / About</a></li> 
+        </ul>
+        <button class="expose">The Expose way.</button>    
+      </nav>
+
+      <section class="main">
+        <div class="roof">
+          <p class="big hstyle hide" >BIG</p>
+          <p class="there hstyle hide" >THREE</p>
+          <p class="javascript hstyle hide">JAVASCRIPT</p>
+          <p class="pillars hstyle hide">PILLARS</p>        
+        </div>
+
+        <div class="env">
+      
+          <div class="types style hide">Types
+            <p><button class="stypeBtn btn">show</button></p>
+        
+          </div>
+          <div class="scopes style hide">Scope
+            <p><button class="sscopeBtn btn">show</button></p>
+         
+          </div>
+          <div class="prototypes style hide">Prototypes
+            <p><button class="sprotoBtn btn">show</button></p>
+           
+          </div>
+          
+        </div>
+       <div class="hide primDiv">
+         <div class="  primT">
+            <p><button class="htypeBtn btn">hide</button></p>
+            <div class="showp primitiveType">Primitive Types</div>
+            <div class="showp coersion">Coercion</div>
+            <div class="showp equalitty">Equalitty</div>
+         </div>
+        </div>
+
+       <div class="hide scopeDiv">
+          <div class="primT">
+            <p><button class="hscopeBtn btn">hide</button></p>
+            <div class="showp scope">Scope</div>
+            <div class="showp closure">Closure</div>
+          </div>
+        </div>
+
+        <div class="hide prototypeDiv">
+          <div class="primT">
+            <p><button class="hprotoBtn btn">hide</button></p>
+            <div class="showp thisS">This</div>
+            <div class="showp prototypeS">Prototype</div>
+          </div>
+        </div>
+
+        
+       <div class="fontParg">
+        
+        <div class="type-section  showp hide">
+          <p>PRIMITIVE TYPES are:</p>
+          <p> - undefined, number, string, symbol, boolean, object</p>     
+          <p>Subtype of object:</p>
+          <p> - null, array</p>
+          <p>Function has own type.</p>
+        </div>
+
+        <div class="coersion-section showp hide">
+          <p>The way converting type in js called COERCION.</p>
+          <ul>
+            <li>+ is overloaded operaor for concatenation.</li>
+            <li>string concatenation - implicit coercion</li>
+            <li>numeric coercion - Number(str)</li>
+            <li>boolean coercion - falsy/truthy concepts</li>
+          </ul>
+          <p>Make sure types clear.</p>
+        </div>
+
+        <div class="equalitty-section showp hide">
+          <p>Checking for EQUALITTY with "==" and "==="</p>
+          <p>"==" allows cercion when types are different.</p>
+          <p>"===" disallows coercion.</p>
+        </div>
+
+        <div class="scope-section showp hide">
+          <p>SCOPE is where js engine look for identifiers.If no declaration in scope where looking for, we check outer scope.</p>        
+          <p>Emptiness: - undefined - undeclared</p>
+          <p>Functions are first class value: - can be assign to var - pass like parameter - return.</p>
+          <p>IIFE: - wrap up function declaration and immediately invoke it with new block scope.</p>
+          <p>Use block scope instead IIFE: - let belongs to block - var belongs to function.</p>
+        </div>
+
+        <div class="closure-section showp hide">
+          <p>CLOSURE is when function 'remembers' outside of it, even if we pass function elsewhere.</p>
+          <ul>
+            <li>passing function like callback</li>
+            <li>return back a function</li>
+          </ul>
+        </div>
+
+        <div class="this-section showp hide">
+          <p>'THIS' reference the execution context for that call.</p>
+          <p>Change context base on how we call function:</p>
+          <ul>
+            <li>implicit binding</li>
+            <li>explicit binding - call, apply, bind</li>
+          </ul>
+          <p>
+        </div>
+
+        <div class="prototype-section showp hide">
+          <p>PROTOTYPE is object which any instances link to.</p>
+        </div>
+       </div> 
+
+
+      </section>
+      <footer>
+        <p>Georgi Georgiev &middot; Associate JavaScript Developer </p>
+        <p><small>&copy; 2022 Georgi Georgiev. All rights reserved.</small></p>
+      </footer>
+      <script src="./public/big3.js"></script>
+</body>
+</html>
