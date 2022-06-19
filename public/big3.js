@@ -7,22 +7,22 @@ function showHouse(){
     }, 500);
     setTimeout(() => {
         document.querySelector('.scopes').classList.remove('hide');
-    },1000);
+    },600);
     setTimeout(() => {
         document.querySelector('.types').classList.remove('hide');
-    },1500);
+    },700);
     setTimeout(() => {
         document.querySelector('.pillars').classList.remove('hide');
-    },2000);
+    },800);
     setTimeout(() => {
         document.querySelector('.javascript').classList.remove('hide');
-    },2500);
+    },900);
     setTimeout(() => {
         document.querySelector('.there').classList.remove('hide');
-    },3000);
+    },1000);
     setTimeout(() => {
         document.querySelector('.big').classList.remove('hide');
-    },3500);
+    },1100);
 }
 
 
